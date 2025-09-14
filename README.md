@@ -22,10 +22,8 @@ A serverless AWS-based pipeline that automatically extracts metadata from PDF fi
 - [Scalability Considerations](#scalability-considerations)
 - [Security Practices](#security-practices)
 - [Contributing](#contributing)
-- [FAQ](#faq)
-- [Roadmap](#roadmap)
-- [Changelog](#changelog)
 - [License](#license)
+- [Author](#author)
 
 ## Overview
 
@@ -77,7 +75,7 @@ The system is designed for organizations that need to automatically catalog and 
 
     ```bash
     git clone <repository-url>
-    cd AWS
+    cd aws-pdf-metadata-extractor
     ```
 
 2.  **Install Python dependencies**
@@ -102,7 +100,8 @@ The system is designed for organizations that need to automatically catalog and 
     - Create an S3 bucket
     - Create a DynamoDB table named `demoPDFMetaDataTable`
     - Set up Lambda function with S3 trigger
-    - Configure IAM roles with appropriate permissions - Lambda IAM Role Policy
+    - Configure IAM roles with appropriate permissions
+      - Lambda IAM Role Policy
       ```json
       {
         "Version": "2012-10-17",
@@ -233,7 +232,7 @@ if 'Item' in response:
 ## Project Structure
 
 ```
-AWS/
+aws-pdf-metadata-extractor/
 ├── .env                           # Environment configuration
 ├── README.md                      # Project documentation
 └── S3/
@@ -442,7 +441,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ```bash
 git clone <your-fork>
-cd AWS
+cd aws-pdf-metadata-extractor
 pip install boto3 PyPDF2
 ```
 
