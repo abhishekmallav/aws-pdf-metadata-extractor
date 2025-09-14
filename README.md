@@ -21,7 +21,6 @@ A serverless AWS-based pipeline that automatically extracts metadata from PDF fi
 - [Performance Notes](#performance-notes)
 - [Scalability Considerations](#scalability-considerations)
 - [Security Practices](#security-practices)
-- [Contributing](#contributing)
 - [License](#license)
 - [Author](#author)
 
@@ -423,26 +422,6 @@ aws-pdf-metadata-extractor/
 - Implement VPC endpoints for private communication
 - Add input validation and sanitization
 - Enable AWS CloudTrail for audit logging
-
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### Quick Start for Contributors
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests (when test framework is implemented)
-5. Submit a pull request
-
-### Development Setup
-
-```bash
-git clone <your-fork>
-cd aws-pdf-metadata-extractor
-pip install boto3 PyPDF2
-```
 
 ## FAQ
 
