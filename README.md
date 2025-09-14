@@ -29,8 +29,7 @@ A serverless AWS-based pipeline that automatically extracts metadata from PDF fi
 
 This system provides an automated solution for extracting and storing PDF metadata using AWS serverless architecture. When a PDF file is uploaded to an S3 bucket, it triggers a Lambda function that extracts comprehensive metadata (title, author, page count, etc.) and stores it in DynamoDB for fast querying and analysis.
 
-The system is designed for organizations that need to automatically catalog and analyze large volumes of PDF documents, providing insights into document properties without manual intervention.
-
+![Architecture](https://github.com/abhishekmallav/aws-pdf-metadata-extractor/blob/main/S3/architecture.png)")
 ## Features
 
 - **Automatic PDF Processing**: Triggered by S3 upload events
